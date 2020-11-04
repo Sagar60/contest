@@ -1,0 +1,125 @@
+.outer{
+    margin: 15px;
+    background-color:#23242c;
+    color: white;
+    border-radius: 16px;
+    padding: 12px;
+}
+.right-side{
+    position: absolute;
+    right: 10px;
+}
+.logo{
+    width: 100%;
+    height: 65px;
+    padding: 0;
+}
+.user{
+    width: 100%;
+    height: 55px;
+    z-index: 99;
+    overflow: visible;
+}
+.username{
+    width: 70%;
+    height: 30px;
+    padding-left: 8px;
+}
+.username-name, .username-email{
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+}
+.username-email{
+    font-size: 10px;
+}
+.image{
+    color: white;
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+}
+.imageup{
+    height: 33px;
+    width: 33px;
+    border-radius: 13px 0  13px 0;
+    
+}
+.nav-link{
+    padding: 3px 5px;
+    color: white;
+}
+.nav-item{
+    margin: 5px;
+}
+.btn-color{
+    
+    outline: 0;
+    border: 0;
+}
+.btn-color:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(236, 84, 109);
+
+    /* background-color: rgb(236, 84, 109); */
+
+}
+.active-btn{
+    background-color: rgb(236, 84, 109);
+
+}
+.list-group{
+    color: white;
+}
+.list-group-item{
+    color: white;
+    background-color: #080d3000;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.btn-size{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 1px 3px;
+    right: 10px;
+    color: white;
+    position: absolute;
+}
+.before-logout{
+    background-color: #404146ad;
+    min-height: 110px;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.before-logout-text{
+    font-size: 12px;
+    text-align: justify;
+}
+.before-logout-btn{
+    padding: 2px 4px;
+    font-weight: 600;
+    color: rgb(238, 110, 110);
+
+}
+.footer a{
+    color: white;
+
+}
+
+.header{
+    margin-bottom: 10px;
+}
+.contains{
+    border-radius: 17px;
+    padding: 15px;
+    background-color: #1b1b22;
+}
+.right-side{
+    position: relative;
+    left: 80%;
+    overflow: visible;
+    z-index: 100;
+}
