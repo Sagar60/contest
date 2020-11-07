@@ -4,9 +4,9 @@
   "scripts": {
     "heroku-postbuild": "ng build --prod",
     "ng": "ng",
-    "start": "node index.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ng build",
-    "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
